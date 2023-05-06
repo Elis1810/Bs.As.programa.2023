@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/pngtree-hand-drawn-cartoon-footprint-elements-png-image_4280047.png');
+}
+.container {
+    background-color: #111010;
+    padding: 60px;
+    margin: 60px; 
+    height: 650px;
+    width: 600px;
+    align-items: center; 
+}
+
+
+.imgFormato {
+    width: 1300px;
+    height: 560px;
+    background-position: center;
+}
+
+h1 {
+    color:rgb(155, 125, 65);
+    text-align:center;
+    line-height: 1.6;
+    font-size: 50px;     
+    font-family: 'Bungee Spice', cursive;
+    margin-top: 50px;
+    padding: 40px;
+  
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    text-decoration: underline;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.formatoImagen {
+    width: 1400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0e404c; 
+    background-position: center;      
+}
+
+.formatoFormulario {    
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 15px;
+    grid-row: 50px 50px;
+    padding: 60px;
+    margin-top: 60px;
+    margin-bottom: 150px;    
+    border-radius: 25px;     
+}
+
+
+.formatoParrafo {
+color:rgb(47, 137, 137);    
+font-family: 'Dancing Script', cursive;
+font-size: 25px;
+text-align: center;
+line-height: 1.6;
+width: 900px;
+height: 100px;
+padding-left: 125px;
+padding-right: 150px;;
+margin-left: 300px;
+margin-right: 100px;
+margin-top: 60px;
+margin-bottom: 60px;
+border: 1px dotted black;
+border-radius: 10px;
+box-shadow: 0 0 15px #0e404c;
+}
+ 
+.padreFlex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 50px;   
+    background-color: black; 
+    padding: 50px;
+}
+
+.uno {
+    border-radius: 5px;
+    box-shadow: 0 0 15px #6caeca;
+    padding: 10px;
+
+}
+
+.dos {
+    border: 3px dashed  rgb(243, 94, 65);
+    border-radius: 5px;
+    box-shadow: 0 0  15px #c3623f;
+    padding: 10px;
+}
+
+.tres {
+    border-radius: 5px;
+    box-shadow: 0 0  15px #98c82a;
+    padding: 10px;
+}
