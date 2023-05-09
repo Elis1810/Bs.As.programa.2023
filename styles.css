@@ -85,6 +85,7 @@ margin-bottom: 60px;
 border: 1px dotted black;
 border-radius: 10px;
 box-shadow: 0 0 15px #0e404c;
+background: linear-gradient(to right, rgb(217, 180, 208), rgb(225, 170, 170), rgb(174, 206, 120));
 }
  
 .padreFlex {
