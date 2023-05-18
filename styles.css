@@ -20,19 +20,20 @@ body {
 }
 header{
     background-color: white;
-    padding: 16px;    
+    padding: 15px;    
 }
 header h1 {    
     color:rgb(155, 125, 65);     
     font-weight: 100;
     display: inline-block;     
-    font-size: 50px; 
-    margin-left: 150px;        
+    font-size: 40px; 
+    margin-left: 40px;
+            
     font-family: 'Bungee Spice', cursive;   
 }
 nav{
     background-color: rgb(194, 239, 239);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 nav ul{
     list-style: none;
@@ -50,21 +51,16 @@ nav ul li a{
     display: block;
     text-align: center;
 }
-nax ul li a:hover{
-    background-color: rgba(0,0,0,0.3);
+nav ul li a:hover{
+    background-color: rgb(167, 211, 214);
 }
 nav ul li a.activo{
-    background-color: #b0cced;
+    background-color: #b1d0f4;
 }
-
-h2 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 25px;
-    text-decoration: underline;
-    padding-left: 100px;
-    padding-right: 50px;
+.holder{ 
+    max-width: 960px;
+    margin: 0 auto;
 }
-
 .formatoImagen {
     width: 1400px;
     height: 500px;
@@ -72,70 +68,18 @@ h2 {
     box-shadow: 0 0 15px #0e404c; 
     background-position: center;      
 }
-
-.formatoFormulario {    
-    font-family: "Comic Sans MS", sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: left;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    display: grid;
-    grid-template-columns: 400px 400px;
-    gap: 15px;
-    grid-row: 50px 50px;
-    padding: 60px;
-    margin-top: 60px;
-    margin-bottom: 150px;    
-    border-radius: 25px;     
-}
-
-
 .formatoParrafo {
 color:rgb(47, 137, 137);    
 font-family: 'Dancing Script', cursive;
 font-size: 25px;
 text-align: center;
-line-height: 1.6;
+line-height: 1.2;
 width: 900px;
 height: 100px;
-padding-left: 125px;
-padding-right: 150px;;
-margin-left: 300px;
-margin-right: 100px;
-margin-top: 60px;
-margin-bottom: 60px;
 border: 1px dotted black;
 border-radius: 10px;
-box-shadow: 0 0 15px #0e404c;
-background: linear-gradient(to right, rgb(217, 180, 208), rgb(225, 170, 170), rgb(174, 206, 120));
-}
- 
-.padreFlex {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin: 50px;   
-    background-color: black; 
-    padding: 50px;
-}
-.uno {
-    border-radius: 5px;
-    box-shadow: 0 0 15px #6caeca;
-    padding: 10px;
-
-}
-.dos {
-    border: 3px dashed  rgb(243, 94, 65);
-    border-radius: 5px;
-    box-shadow: 0 0  15px #c3623f;
-    padding: 10px;
-}
-.tres {
-    border-radius: 5px;
-    box-shadow: 0 0  15px #98c82a;
-    padding: 10px;
+box-shadow: 0 0 15px #1b383f;
+background: linear-gradient(to right, rgb(217, 180, 208), rgb(225, 170, 170), rgb(155, 187, 216));
 }
 
 footer{
