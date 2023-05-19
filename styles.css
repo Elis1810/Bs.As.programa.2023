@@ -93,8 +93,9 @@ footer{
 
 .bienvenidos{
     font-family: 'Caveat', cursive;
-    font-size: 500px;
-    margin-left: 40px;    
+    font-size: 100px;
+    margin-left: 40px; 
+    text-align: center;   
 }
 /* inicio nosotros */
 .nosotros p {
@@ -128,6 +129,12 @@ footer{
 /* fin nostros */
 
 /*inicio galeria*/
+
+.presentaciones {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Caveat', cursive;   
+}
 .perrito {
     border: 1px solid blanchedalmond;
     border-radius: 5px;
@@ -312,7 +319,6 @@ footer{
     background: #F7B1AB;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 /*fin galeria*/
 
 /* comienzo de contacto */
@@ -340,5 +346,4 @@ footer{
     border-radius: 50px;
     display: inline-block;
 }    
-
 /*fin de contacto */
