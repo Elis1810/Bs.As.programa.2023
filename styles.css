@@ -1,23 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-    background-image: url('img/pngtree-hand-drawn-cartoon-footprint-elements-png-image_4280047.png');
+        background-color: #bcd5ec;
+ } 
+
+.img_cont{   
+    height: 80%; 
+    width: 95%;
+    background-position: center;     
+    padding: 20px;     
+    margin: 10px;        
 }
-.container {
-    background-color: #111010;
-    padding: 70px;
-    margin: 70px; 
-    height: 650px;
-    width: 900px;
-    align-items: center; 
+.img_cont_carrousel{
+    height: 80%; 
+    width: 95%;
+    background-position: center;     
+    padding: 20px;      
+    margin: 10px;     
 }
-.imgFormato {
-    width: 1300px;
-    height: 560px;
-    background-position: center;
-}
+
 header{
     background-color: white;
     padding: 15px;    
@@ -57,25 +62,20 @@ nav ul li a.activo{
     background-color: #b1d0f4;
 }
 .holder{ 
+    height: 95%; 
+    width: 95%;
     max-width: 960px;
-    margin: 0 auto;
+    margin: auto; 
+    padding: auto;   
 }
 
-.formatoImagen {
-    width: 1000px;
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px #0e404c; 
-    background-position: center;      
-}
 .formatoParrafo {
 color:rgb(47, 137, 137);    
 font-family: 'Dancing Script', cursive;
 font-size: 25px;
 text-align: center;
 line-height: 1.2;
-width: 1000px;
-height: 100px;
+margin: 10px;
 border: 1px dotted black;
 border-radius: 10px;
 box-shadow: 0 0 15px #1b383f;
@@ -93,29 +93,32 @@ footer{
 
 .bienvenidos{
     font-family: 'Caveat', cursive;
-    font-size: 100px;
+    font-size: 70px;
     margin-left: 40px; 
-    text-align: center;   
+    text-align: center;      
 }
 /* inicio nosotros */
 .nosotros p {
     font-family: 'Dancing';
-    font-size: 25px;
+    font-size: 25px; 
+    font-weight: bold;   
     font-style: oblique;    
     padding: 5px, 0;
     margin-top: 20px;
 }
+
 .servicio {
     border: 1px solid rgb(226, 152, 125);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 15px;
     margin: 15px 0;
     display: flex;
     gap: 32px;
     align-items: center;
 }
+
 .servicio img {
-    height: 100px;
+    height: 90px;
     width: 100px;
     border-radius: 50px;
     display: block;
@@ -124,7 +127,9 @@ footer{
     font-family: 'Caveat', cursive;    
 }
 .servicio p {
-    font-size: 18px;
+    font-size: 16px;
+    font-family: "Comic Sans MS";
+    text-align: center;
 }
 /* fin nostros */
 
@@ -135,210 +140,73 @@ footer{
     text-align: center;
     font-family: 'Caveat', cursive;   
 }
-.perrito {
-    border: 1px solid blanchedalmond;
-    border-radius: 5px;
-    width: 18%;
-    text-align: center;
-    padding: 13px;
-    box-sizing: border-box;
-    background-color: rgb(186, 240, 240);
-}
-.perrito img {
-    border-radius: 50%;
-    max-width: 60%;
-    box-shadow: 5px 5px 10px;
-}
 .perritos {
-    display: flex;
-    justify-content: space-between;
+    display:flex;        
+    justify-content:space-between;
+    
+    padding: auto;
 }
+.perrito {
+    border:  solid blanchedalmond;
+    border-radius: 15px;    
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;    
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    background-color: rgb(186, 240, 240);
+    
+}
+.perrito img {           
+    box-shadow: 5px 5px 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    display: block;
+}
+
 .perrito h4 {
-    margin: 0;
+    margin: 0;    
     font-weight: normal;
     color: #0a0a0a;
+    text-align: center;
+    font-size: 12px;
 }
 .perrito p {
     color: #0a0a0a;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
+    display: block;
 }
 .perrito h3{
     font-family: 'Caveat', cursive;
-}
-.signup-container {
-    margin: 20px;
-    padding: 30px;       
-    display: grid;
-    grid-template-areas: "left right";
-    max-width: 900px;
-    background-color: #bcd5ec;    
-}
-  
-.left-container {
-    background: #807182;
-    overflow: hidden;
-    padding: 40px 0 0 0;
-    position: relative;
     text-align: center;
-    width: 300px;
-}
-.left-container h1 {
-    color: rgba(0, 0, 0, 0.8);
-    display: inline-block;
-    font-size: 24px;
-}
-.left-container .puppy {
-    bottom: -5px;
-    position: absolute;
-    text-align: center;
-}
-.left-container .puppy:before {
-    background: #807182;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.4;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-}
-.left-container img {
-    filter: sepia(100%);
-    width: 90%;
-}  
-.right-container {
-    background: #f9c7c2;
-    display: grid;
-    grid-template-areas: "." ".";
-    width: 500px;
-}
-.right-container h1 {    
-    font-size: 30px;
-    font-weight: 600;
-}
-.right-container .set {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
-}
-.right-container input {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    height: 38px;
-    line-height: 38px;
-    padding-left: 5px;
-}
-.right-container input, .right-container label {
-   color: rgba(0, 0, 0, 0.8);
-}
-.right-container header {
-    padding: 40px;
-}
-.right-container label, .right-container input, .right-container .pets-photo {
-    width: 176px;
-}
-.right-container .pets-photo {
-    align-items: center;
-    display: grid;
-    grid-template-areas: ". .";
-}
-.right-container .pets-photo button {
-    border: none;
-    border-radius: 50%;
-    height: 38px;
-    margin-right: 10px;
-    outline: none;
-    width: 38px;
-}
-.right-container .pets-photo button i {
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 16px;
-}
-.right-container footer {
-    align-items: center;
-    background: #fff;
-    display: grid;
-    padding: 5px 40px;
-}
-.right-container footer button {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    height: 38px;
-    line-height: 38px;
-    width: 100px;
-    border-radius: 19px;
-    font-family: "Montserrat", sans-serif;
-}
-.right-container footer #back {
-    background: #fff;
-    transition: 0.2s all ease-in-out;
-}
-.right-container footer #back:hover {
-    background: #171A2B;
-    color: white;
-}
-.right-container footer #next {
-    background: #807182;
-    border: 1px solid transparent;
-    color: #fff;
-}
-.right-container footer #next:hover {
-    background: #171A2B;
-}
-  
-.pets-name label, .pets-breed label, .pets-birthday label, .pets-gender label, .pets-spayed-neutered label, .pets-weight label {
     display: block;
-    margin-bottom: 5px;
+    font-size: 20px;
 }
-  
-.radio-container {
-    background: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    display: inline-block;
-    padding: 5px;
-}
-  
-.radio-container label {
-    background: transparent;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    display: inline-block;
-    height: 26px;
-    line-height: 26px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    transition: 0.2s all ease-in-out;
-    width: 80px;
-}  
-.radio-container input[type=radio] {
-    display: none;
-}
-  .radio-container input[type=radio]:checked + label {
-    background: #F7B1AB;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
+
+
 /*fin galeria*/
 
 /* comienzo de contacto */
 .iframe {
     border: 1px solid rgb(226, 152, 125);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
-    margin: 15px 0;
-    
+    margin: 15px 0;    
     gap: 32px;
     align-items: center; 
 }
 .contacto {
     border: 1px solid rgb(28, 74, 107);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
     margin: 15px 0;    
     display: block;
     gap: 32px;
-    align-items: center;
+    align-items: center;   
 }
 .contacto img {
     height: 100px;
