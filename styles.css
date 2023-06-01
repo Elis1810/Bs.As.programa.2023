@@ -144,9 +144,9 @@ footer{
 }
 .perritos {
     display:flex;        
-    justify-content:space-between;
-    
+    justify-content:space-between;    
     padding: auto;
+    margin: 12px;
 }
 .perrito {
     border:  solid blanchedalmond;
@@ -154,7 +154,7 @@ footer{
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;    
-    margin: 15px;
+    margin: 8px;
     display: flex;
     gap: 30px;
     align-items:center;
@@ -189,6 +189,57 @@ footer{
     font-size: 20px;
 }
 
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #0b1623;     
+}
+
+form {    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    font-size: 20px;
+    background-color: rgb(240, 223, 239);
+    margin-bottom: 20px;
+    padding: 20px 55px 25px 55px;
+    
+}
+
+label {
+    color: #0a0a0a;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 20px 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #1b383f;
+    color: black;
+    outline: none;
+}
+
+input::placeholder {
+    color: #c0c0c0c0;
+}
+
+.boton {
+    font-size: 20px;
+    color: rgb(5, 11, 15);
+    border: 0;
+    border-radius: 15px;
+    background-color: linear-gradient(
+        90deg,
+        rgba(214, 0, 254, 1) 0%,
+        rgba(136, 1, 254, 1) 77%);    
+}
 
 /*fin galeria*/
 

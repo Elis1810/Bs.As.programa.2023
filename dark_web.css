@@ -6,8 +6,8 @@
 body.dark {   background:  #0b0a0a; }
 body.dark h2 {color:#fff}
 body.dark h3 {color:#f0a492}
-body.dark h4 {color:#200b08}
-body.dark main p {color:#ececf2}
+body.dark h4 {color:#000000}
+body.dark main p {color:#ffffff}
 body.dark footer p {color: #000000;}
 
 .darkModeSwitch{
