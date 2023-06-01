@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi_pagina_web</title>    
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dark_web.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,11 +16,19 @@
     <link rel="stylesheet" href="java.js">          
 </head>
 <body>
-  <header >  
-    <div class="holder">
+  <header >    
+    <div class="holder">      
       <img src="img/logo.ong.animalesdelatierra.jpg" width="250" aling="left" alt="ong_animales_de_la_tierra">
-      <h1> Búscame y Encontrame </h1> 
+      <h1> Búscame y Encontrame </h1>  
+      
+      <button class="darkModeSwitch ms-2" id="switch">
+        <span><i class="fas fa-sun"></i></span>
+        <span><i class="fas fa-moon"></i></span> 
+      </button>
+     
     </div> 
+    
+  </div> 
   </header>
   <nav class="holder">
     <div>
@@ -76,6 +85,7 @@
   <footer>
     <p>Diseñado por Eliana Maldonado</p>
   </footer>   
+  
   <script src="java.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
