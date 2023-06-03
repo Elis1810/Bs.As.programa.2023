@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue; 
+}
+
+header h1 {
+    color: rgb(202, 165, 90);     
+    font-weight: 100;
+    display: inline-block;     
+    font-size: 40px; 
+    margin-left: 40px;            
+    font-family: 'Bungee Spice', cursive;    
+}  
+
+.container {
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;    
+}
+
+nav .row {
+    background-color: rgb(194, 239, 239);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: rgb(141, 177, 180);
+}
+nav ul li a.activo{
+    background-color: #9aafc7;
+}
+
+.bienvenidos{
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    margin-left: 40px; 
+    text-align: center;      
+}
+main .row {
+    display: flex;
+}
+main p  {    
+    font-family: 'Dancing Script', cursive;    
+    text-align: center; 
+    font-size: 25px;
+    color: rgb(5, 11, 15);    
+}
+
+footer .row {
+    background-color: rgb(245, 248, 240);
+    clear: both;
+    color:rgb(7, 33, 33);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+/*fin Index */
+
+/* inicio Nosotros */
+
+.imagen {    
+    height: 90px;
+    width: 100px;
+    border-radius: 50px;
+    display: block;
+}
+h3 {
+    font-size: 10px;
+    font-family: 'Caveat', cursive;    
+}
+.miClaseP {
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+/* fin Nosotros */

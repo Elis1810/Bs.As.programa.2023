@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="dark_web.css">
     <link rel="stylesheet" href="java.js">
     <link rel="stylesheet" href="css/normalize.css">
@@ -16,70 +17,104 @@
     <title>Nosotros</title>
 </head>
 <body>
-  <header>  
-    <div class="holder">
-      <img src="img/logo.ong.animalesdelatierra.jpg" width="250" aling="left" alt="ong_animales_de_la_tierra">
-      <h1> Búscame y Encontrame </h1> 
-      <button class="darkModeSwitch ms-2" id="switch">
-        <span><i class="fas fa-sun"></i></span>
-        <span><i class="fas fa-moon"></i></span> 
-      </button>
-    </div> 
-  </header>  
-  <nav>
-    <div class="holder">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a class="activo" href="nosotros.html">Nosotros</a></li>        
-        <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="contacto.html">Contacto</a></li>      
-      </ul>
-    </div>       
-  </nav>
-   
-  <main class="holder"> 
-    <div>
-      <img src="img/nog_animalesdelatierra2.jpg" class="img_cont">
-      <hr/>
+  <header class="container">        
+    <div class="row"> 
+      <div class="col-sm-2" columna1>
+        <img src="img/logo.ong.animalesdelatierra.jpg" alt="ong_animales_de_la_tierra">
+      </div>
+      <div class="col-sm-9" columna2>
+        <h1> Búscame y Encontrame </h1>
+      </div>
+      <div class="col-sm-1" columna3>
+        <button class="darkModeSwitch ms-2" id="switch">
+            <span><i class="fas fa-sun"></i></span>
+            <span><i class="fas fa-moon"></i></span> 
+          </button>
+      </div>
+    </div>          
+  </header> 
+  <nav class="container">
+    <div class="row">
+        <div class="col-sm">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="activo" href="nosotros.html">Nosotros</a></li>        
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>      
+              </ul> 
+        </div>
     </div>
-    <div>            
-      <section class="nosotros">              
-        <p class="nosotros">
+  </nav>  
+   
+  <main class="container"> 
+    <div class="row">
+      <div class="col-sm">
+        <img class="container" src="img/nog_animalesdelatierra2.jpg" class="img_cont">      
+      </div>
+    </div>
+    <div class="row">
+      <hr/>
+      <div class="col-sm" columna1>
+        <h2 class="bienvenidos">Nosotros</h2>
+      </div>
+      <div class="col-sm" columna2>
+        <p>
           Nuestro objetivo es ayudarte a difundir rápidamente la imagen de tu mascota en redes sociales. 
           Nos aseguramos de llegar a tus vecinos y a miles de personas en el área donde desapareció tu fiel compañero. 
           Ya sea que haya sido robado, se haya escapado o simplemente se haya perdido, ¡Estamos aquí para ayudarte a encontrarlo! 
           Porque sabemos mas que nadie lo importante que es para vos!
-        </p>   
-        <hr/>           
-      </section>
-    </div>
-    <h2>¿Como empesar?</h2>
-    <div class="servicio">            
-      <img src="img/lindo-perro-agitando-mano-dibujos-animados-vector-icono-ilustracion-animal-naturaleza-icono-concepto-aislado-premium_138676-4955.avif">
-      <h3>Crear Alerta</h3>
-       <p> Vamos a crear un anuncio publicitario en redes sociales que se mostrará a personas que viven o transitan por la zona de búsqueda.
-       ¡Empieza tu alerta ahora!
-       </p>
-    </div>
-    <div class="servicio"> 
-      <img src="img/lindo-perro-corgi-comiendo-dibujos-animados-hueso_138676-2534.avif"> 
-      <h3>Difundir, anunciar y viralizar</h3>
-       <p>
-         Difundiremos el anuncio en los teléfonos de un montón de personas cercanas,
-         cubriendo varios kilómetros a la redonda de donde puede estar tu mascota.
-       </p>
-    </div>
-    <div class="servicio">
-      <img src="img/diseno-logotipo-dibujos-animados-mascota-perro-lindo-estilo-diseno-plano_203040-109.avif">
-      <h3>Encontrar</h3>
-      <p>En unas pocas horas, las personas que vean el anuncio y sepan dónde está tu mascota podrán contactarte.</p>
+        </p>          
+      </div>
+      <hr/>       
     </div> 
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-1 ms-md.auto">
+          <img class="imagen" src="img/lindo-perro-agitando-mano-dibujos-animados-vector-icono-ilustracion-animal-naturaleza-icono-concepto-aislado-premium_138676-4955.avif">
+        </div>
+        <div class="col-sm-2 ms-md.auto">
+          <h3>Crear Alerta</h3>       
+        </div>
+        <div class="col-sm-9 ms-md.auto">
+          <p class="miClaseP"> Vamos a crear un anuncio publicitario en redes sociales que se mostrará a personas que viven o transitan por la zona de búsqueda.
+            ¡Empieza tu alerta ahora!
+          </p>                
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-sm-1 ms-md-auto">
+          <img class="imagen" src="img/lindo-perro-corgi-comiendo-dibujos-animados-hueso_138676-2534.avif">
+        </div>
+        <div class="col-sm-2 ms-md.auto">
+          <h3>Difundir, anunciar y viralizar</h3>
+        </div>
+        <div class="col-sm-9 ms-md.auto">
+          <p class="miClaseP">
+            Difundiremos el anuncio en los teléfonos de un montón de personas cercanas,
+            cubriendo varios kilómetros a la redonda de donde puede estar tu mascota.
+          </p>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-sm-1">
+          <img class="imagen" src="img/diseno-logotipo-dibujos-animados-mascota-perro-lindo-estilo-diseno-plano_203040-109.avif">
+        </div>
+        <div class="col-sm-2">
+          <h3>Encontrar</h3>
+        </div>
+        <div class="col-sm-9">
+          <p class="miClaseP">En unas pocas horas, las personas que vean el anuncio y sepan dónde está tu mascota podrán contactarte.</p>
+        </div>
+      </div>
+    </div>         
   </main>  
-  <footer>
-    <p>Diseñado por Eliana Maldonado</p>
-  </footer>   
+  <footer class="container">
+    <div class="row">
+        <p>Diseñado por Eliana Maldonado</p>
+  </footer> 
   <script src="java.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
 </body>
 </html>

@@ -7,38 +7,25 @@
 body {
     background-color: aliceblue; 
 }   
-
-
-.img_cont{   
-    height: 80%; 
-    width: 95%;
-    background-position: center;     
-    padding: 20px;     
-    margin: 10px;        
-}
-.img_cont_carrousel{
-    height: 80%; 
-    width: 95%;
-    background-position: center;     
-    padding: 20px;      
-    margin: 10px;     
-}
-
-header{
-    background-color: white;
-    padding: 15px;    
-}
-header h1 {    
-    color:rgb(155, 125, 65);     
+/* inicio Index */
+header h1 {
+    color: rgb(202, 165, 90);     
     font-weight: 100;
     display: inline-block;     
     font-size: 40px; 
     margin-left: 40px;            
-    font-family: 'Bungee Spice', cursive;   
+    font-family: 'Bungee Spice', cursive;    
+}  
+
+.container {
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;    
 }
-nav{
+
+nav .row {
     background-color: rgb(194, 239, 239);
-    margin-bottom: 5px;
 }
 nav ul{
     list-style: none;
@@ -57,40 +44,10 @@ nav ul li a{
     text-align: center;
 }
 nav ul li a:hover{
-    background-color: rgb(167, 211, 214);
+    background-color: rgb(141, 177, 180);
 }
 nav ul li a.activo{
-    background-color: #b1d0f4;
-}
-.holder{ 
-    height: 95%; 
-    width: 95%;
-    max-width: 960px;
-    margin: auto; 
-    padding: auto;  
-    
-}
-
-.formatoParrafo {
-color:rgb(47, 137, 137);    
-font-family: 'Dancing Script', cursive;
-font-size: 25px;
-text-align: center;
-line-height: 1.2;
-margin: 10px;
-border: 1px dotted black;
-border-radius: 10px;
-box-shadow: 0 0 15px #1b383f;
-background: linear-gradient(to right, rgb(217, 180, 208), rgb(225, 170, 170), rgb(155, 187, 216));
-}
-
-footer{
-    background-color: rgb(245, 248, 240);
-    clear: both;
-    color:rgb(7, 33, 33);
-    text-align: center;
-    padding: 5px, 0;
-    margin-top: 20px;
+    background-color: #9aafc7;
 }
 
 .bienvenidos{
@@ -99,6 +56,29 @@ footer{
     margin-left: 40px; 
     text-align: center;      
 }
+main .row {
+    display: flex;
+}
+main p  {    
+    font-family: 'Dancing Script', cursive;    
+    text-align: center; 
+    font-size: 25px;
+    color: rgb(5, 11, 15);    
+}
+
+footer .row {
+    background-color: rgb(245, 248, 240);
+    clear: both;
+    color:rgb(7, 33, 33);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+/*fin Index */
+
+
+
 /* inicio nosotros */
 .nosotros p {
     font-family: 'Dancing';
