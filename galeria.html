@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="dark_web.css">
     <link rel="stylesheet" href="java.js">
     <link rel="stylesheet" href="css/normalize.css">
@@ -16,146 +16,192 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="holder">
-            <img src="img/logo.ong.animalesdelatierra.jpg" width="250" aling="left" alt="ong_animales_de_la_tierra">
-            <h1> Búscame y Encontrame </h1> 
-            <button class="darkModeSwitch ms-2" id="switch">
-                <span><i class="fas fa-sun"></i></span>
-                <span><i class="fas fa-moon"></i></span> 
-              </button>
-        </div> 
-    </header>  
-    <nav>
-        <div class="holder">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>        
-            <li><a class="activo" href="galeria.html">Galeria</a></li>
-            <li><a href="contacto.html">Contacto</a></li>      
-          </ul>
-        </div>    
-      </nav>
-    <main>        
-        <div class="holder">
-            <h2 class="presentaciones">Busquedas</h2>
-             <hr/>
+  <header class="container">        
+    <div class="row"> 
+      <div class="col-sm-2" columna1>
+        <img src="img/logo.ong.animalesdelatierra.jpg" alt="ong_animales_de_la_tierra">
+      </div>
+      <div class="col-sm-9" columna2>
+        <h1> Búscame y Encontrame </h1>
+      </div>
+      <div class="col-sm-1" columna3>
+        <button class="darkModeSwitch ms-2" id="switch">
+            <span><i class="fas fa-sun"></i></span>
+            <span><i class="fas fa-moon"></i></span> 
+          </button>
+      </div>
+    </div>          
+  </header> 
+  <nav class="container">
+    <div class="row">
+        <div class="col-sm">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="activo" href="nosotros.html">Nosotros</a></li>        
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>      
+              </ul> 
         </div>
-        <div class="holder">                
-          <div  class="perrito">
-              <img src="img/tomy.jpg" alt="Tomy">
-              <h3>Tomy</h3>
-              <h4>Perdido</h4>
-              <p>Canino<BR> Macho 8 años<BR> Raza pomeranian<BR> Perdido el 21/04/2023<BR>
-                  ¡Perdido en Zona Norte, Munro!<BR>
-                  Contacto: 1133530123
-              </p>
+    </div>
+  </nav>
+  <main class="container">
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="bienvenidos">Buesquedas</h2>
+            <hr />
           </div>
         </div>
-        <div class="holder">                
-          <div  class="perrito">
-              <img src="img/dumby.jpg" alt="Dumby">
-              <h3>Dumby</h3>
-              <h4>Perdido</h4>
-              <p>Canino<BR> Hembra 12 años<BR>Raza mestizo<BR> Perdido el 1/01/2023<BR>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h3 class="busquedas-h3">Dumby</h3>
+          <h4 class="perdidos">Perdido</h4>
+          <img class="container" src="img/dumby.jpg" alt="Dumby">                            
+              <p class="galeriaP">Canino<BR> Hembra 12 años<BR>Raza mestizo<BR> Perdido el 1/01/2023<BR>
                   ¡Perdido en Zona Norte, Carapachay!<BR>
                   Contacto: 1153147601
               </p>
-          </div>
-        </div> 
-        <div class="holder">                
-          <div  class="perrito">
-              <img src="img/mia.jpg" alt="Mía">
-              <h3>Mia</h3>
-              <h4>Perdido</h4>
-              <p>Canino<BR> Hembra 4 años<BR> Raza mestizo<BR> Perdido el 31/12/2022<BR>
+        </div>
+        <div class="col-sm">  
+          <h3 class="busquedas-h3">Tomy</h3>
+            <h4 class="perdidos">Perdido</h4>        
+            <img class="container" src="img/tomy.jpg" alt="Tomy">            
+            <p class="galeriaP">Canino<BR> Macho 8 años<BR> Raza pomerania<BR> Perdido el 21/04/2023<BR>
+                ¡Perdido en Zona Norte, Munro!<BR>
+                Contacto: 1133530123
+            </p>
+        </div>
+        <div class="col-sm">
+          <h3 class="busquedas-h3">Mia</h3>            
+            <h4 class="encontrados">Encontrado</h4>
+            <img class="container" src="img/mia.jpg" alt="Mía">
+            <br />
+            <br />
+            <br />
+            
+            <p class="galeriaP">Canino<BR> Hembra 4 años<BR> Raza mestizo<BR> Perdido el 31/12/2022<BR>
                   ¡Perdido en Zona Norte, Villa Adelina!<BR>
                   Contacto: 1150461591
-              </p>
-          </div>
-        </div> 
-        <div class="holder">                
-          <div  class="perrito">
-              <img src="img/mora.jpg" alt="Mora">
-              <h3>Mora</h3>
-              <h4>Perdido</h4>
-              <p>Canino<BR> Hembra 10 años<BR> Raza mestizo<BR> Perdido el 21/08/2022<BR>
+            </p>
+                    </div>
+        <div class="col-sm">
+          <h3 class="busquedas-h3">Mora</h3>
+            <h4 class="perdidos">Perdido</h4>
+            <img class="container" src="img/mora.jpg" alt="Mora">
+            
+            <p class="galeriaP">Canino<BR> Hembra 10 años<BR> Raza mestizo<BR> Perdido el 21/08/2022<BR>
                   ¡Perdido en Zona Norte, Florida!<BR>
                   Contacto: 1131727388
-              </p>
-          </div>
-        </div> 
-        <div class="holder">                
-          <div  class="perrito">
-              <img src="img/zack.jpg" alt="Zack">
-              <h3>Zack</h3>
-              <h4>Perdido</h4>
-              <p>Canino<BR> Macho 8 años<BR> Raza mestizo<BR> Perdido el 21/01/2022<BR>
+            </p>
+        </div>
+        <div class="col-sm">
+          <h3 class="busquedas-h3">Zack</h3>
+          <h4 class="encontrados">Encontrado</h4>
+          <img class="container" src="img/zack.jpg" alt="Zack">
+             
+              <p class="galeriaP">Canino<BR> Macho 8 años<BR> Raza mestizo<BR> Perdido el 21/01/2022<BR>
                   ¡Perdido en Zona Norte, Bulogne!<BR>
                   Contacto: 1115853695
               </p>
-          </div>
-        </div> 
-        
-      <form class="holder">
-        <div>
-          <div class="container">
-            <h2>Formulario de Busquedas</h2>
-          <br />
-          </div>
-          <div class="container">
-            <label>Nombre</label>          
-            <input type="text" name="nombre" placeholder="Nombre de la mascota">           
-          </div>
-          <br />
-          <div class="container">
-            <label>Especie</label>
-            <input type="text" name="Especie" placeholder="Canino o Felino">           
-          </div>
-          <br />
-          <div class="container">
-            <label>Sexo</label>
-            <input type="text" name="Sexo" placeholder="Hembra o Macho">                     
-          </div>
-          <br />
-          <div class="container">
-            <label>Edad</label>
-            <input type="number" name="Edad" placeholder="Edad de la mascota">           
-          </div>
-          <br />
-          <div class="container">
-            <label>Raza</label>
-            <input type="text" name="Raza" placeholder="Raza de la mascota">           
-          </div>
-          <br />
-          <div class="container">
-            <label>Fecha</label>
-            <input type="text" name="Fecha" placeholder="Ingrese la fecha de extravio dd/mm/aaaa">           
-          </div>
-          <br />
-          <div class="container">
-            <label>Zona</label>
-            <input type="text" name="Zona" placeholder="Ingrese zona de extravio">           
-          </div>
-          <br />
-          <div class="container">
-            <label>Contacto</label>
-            <input type="text" name="Contacto" placeholder="Ingrese su telefono">           
-          </div>
-          <br />
-          <div>
-            <input  type="submit" value="Enviar">
-          </div>          
-        </form> 
-
         </div>
-
-    </main>  
-    <footer>
-        <p>Diseñado por Eliana Maldonado</p>
-    </footer>   
+      </div>
+    </div>
+    <div class="contenedorFormulario" >
+      <div class="row">
+        <div class="col-sm">
+          <h2 class="bienvenidos">Formulario</h2>
+        </div>
+      </div>
+      <br />
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre Mascota" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Selecciona</option>
+              <option value="1">Canido</option>
+              <option value="2">Felino</option>          
+            </select>
+          </div>
+        </div>        
+        <div class="mb-3">
+          <label for="formFile" class="form-label"></label>
+          <input class="form-control" type="file" id="formFile">
+        </div>
+        <div class="row">
+          <div class="col-sm" columna1>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Sexo</option>
+              <option value="1">Macho</option>
+              <option value="2">Hmebra</option>          
+            </select> 
+            <br />  
+          </div>                  
+          <div class="col-sm" columna2>            
+          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Raza">
+          <datalist id="datalistOptions">
+            <option value="Chow chow">
+            <option value="Mestizo">
+            <option value="Pomerania">
+            <option value="Bulldog francés">
+            <option value="Bulldog continental">
+            <option value="Alaskan">  
+            <option value="Esquiman Americano">
+            <option value="Pastor Aleman">
+            <option value="Chihuahua">
+            <option value="Shih tzu">
+            <option value="Weimaraner">
+            <option value="Beagle">
+            <option value="Border collie">
+            <option value="Pincher">
+            <option value="Maltés">
+            <option value="Schnauzer">
+            <option value="Cocker">
+            <option value="Shiba inu">
+            <option value="Dóberman ">
+            <option value="Basset">
+            <option value="Bichón frisé ">
+            <option value="Yorkshire"></option>
+          </div>
+        </div>           
+          <br />
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comentarios</label>
+          </div>
+          <br />
+          <div class="mb-3">            
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="telefóno celular">            
+          </div>
+          <div class="mb-3">          
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="correo electronico">
+            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+          </div> 
+          <br />
+          <input class="btn btn-primary" type="submit" value="Submit">
+          <input class="btn btn-primary" type="reset" value="Reset">
+      </form>
+    </div>   
+  </main>  
+    <footer class="container">
+      <div class="row">
+          <p>Diseñado por Eliana Maldonado</p>
+    </footer>    
     <script src="java.js"></script>
-    <script src="js/bootstrap.min.js"></script>     
-    
+    <script src="js/bootstrap.min.js"></script>    
 </body>
 </html>

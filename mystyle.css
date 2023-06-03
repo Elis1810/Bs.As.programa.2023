@@ -8,6 +8,7 @@ body {
     background-color: aliceblue; 
 }
 
+/* inicio Index */
 header h1 {
     color: rgb(202, 165, 90);     
     font-weight: 100;
@@ -19,9 +20,11 @@ header h1 {
 
 .container {
     text-align: center;
-    align-items: center;
+    align-content: space-between;
     padding-top: 30px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px; 
+    justify-content: space-between;
+
 }
 
 nav .row {
@@ -93,5 +96,54 @@ h3 {
     font-size: 20px;
     font-family: "Comic Sans MS";
     text-align: center;
+    border: 1px solid rgb(226, 152, 125);
+    border-radius: 20px;
+    box-shadow: rgb(226, 152, 125);
+    padding: 5px;
 }
 /* fin Nosotros */
+
+/* inicio Galeria */
+.perdidos {
+    color: red;
+    font-size: 25px;
+}
+.encontrados {
+    color: aqua;
+    font-size: 25px;
+}
+
+.busquedas-h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Caveat', cursive; 
+}
+
+.galeriaP {
+    font-family:'Franklin Gothic Medium';
+    border:  solid rgb(164, 196, 215);
+    border-radius: 15px;    
+    text-align: center;
+    padding: 20px;           
+}
+
+.contenedorFormulario {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    
+}
+form {
+    background-color:rgb(194, 239, 239);
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid rgb(28, 74, 107);
+    
+}
+/* fin Galeria */
+
+/* inicio contacto */
+
+
+/* fin contacto */

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="dark_web.css">
     <link rel="stylesheet" href="java.js">
     <link rel="stylesheet" href="css/normalize.css">
@@ -16,43 +16,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>      
-        <div class="holder">          
-          <img src="img/logo.ong.animalesdelatierra.jpg" width="250" aling="left" alt="ong_animales_de_la_tierra">
-          <h1> Búscame y Encontrame </h1> 
-          <button class="darkModeSwitch ms-2" id="switch">
+  <header class="container">        
+    <div class="row"> 
+      <div class="col-sm-2" columna1>
+        <img src="img/logo.ong.animalesdelatierra.jpg" alt="ong_animales_de_la_tierra">
+      </div>
+      <div class="col-sm-9" columna2>
+        <h1> Búscame y Encontrame </h1>
+      </div>
+      <div class="col-sm-1" columna3>
+        <button class="darkModeSwitch ms-2" id="switch">
             <span><i class="fas fa-sun"></i></span>
             <span><i class="fas fa-moon"></i></span> 
-          </button> 
-        </div>                
-    </header>  
-    <nav>
-        <div class="holder">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>        
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a class="activo" href="contacto.html">Contacto</a></li>      
-          </ul>
-        </div>    
-    </nav>
-    <main class="holder">
-        <div class="contacto">
-          <img src="img/icons8-nuevo-post-96.png" alt="icono mensajes">
-          <a href="onganimalesdelatierra@gmail.com" targe="_blank">onganimalesdelatierra@gmail.com</a>        
-        </div> 
-        <div class="contacto">
-          <img src="img/icons8-facebook-96.png" alt="icono facebook">
-          <a href="https://www.facebook.com/onganimalesdelatierra/about?locale=es_LA" target="_blank">Facebook</a>        
-        </div>    
-        <div class="contacto">
-          <img src="img/icons8-instagram-96.png" alt="icono instagram">
-          <a href="https://www.instagram.com/onganimalesdelatierra/?hl=es" target="_blank">Instagram</a>
+          </button>
+      </div>
+    </div>          
+  </header> 
+  <nav class="container">
+    <div class="row">
+        <div class="col-sm">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="activo" href="nosotros.html">Nosotros</a></li>        
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>      
+              </ul> 
         </div>
-      </main>
-      <footer>
-        <p>Diseñado por Eliana Maldonado</p>
-      </footer>         
+    </div>
+  </nav> 
+  <main class="container">
+    <div class="row">
+      <div class="col-sm">
+        <img class="container" src="img/nog_animalesdelatierra2.jpg" class="img_cont">      
+      </div>
+    </div>
+        <div class="row">          
+          <div class="col-sm-4">
+            <img src="img/icons8-facebook-96.png" alt="icono facebook">
+            <a href="https://www.facebook.com/onganimalesdelatierra/about?locale=es_LA" target="_blank">Facebook</a>
+          </div>  
+          <div class="col-sm-4">
+            <img src="img/icons8-instagram-96.png" alt="icono instagram">
+          <a href="https://www.instagram.com/onganimalesdelatierra/?hl=es" target="_blank">Instagram</a>
+          </div> 
+          <div class="col-sm-4">
+            <img src="img/icons8-nuevo-post-96.png" alt="icono mensajes">
+          <a href="onganimalesdelatierra@gmail.com" targe="_blank">onganimalesdelatierra@gmail.com</a> 
+          </div> 
+        </div>        
+        
+  </main>
+      <footer class="container">
+        <div class="row">
+            <p>Diseñado por Eliana Maldonado</p>
+      </footer>           
       <script src="js/bootstrap.min.js"></script>
       <script src="java.js"></script>        
 </body>
