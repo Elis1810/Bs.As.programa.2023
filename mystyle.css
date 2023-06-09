@@ -127,15 +127,24 @@ h3 {
     padding: 20px;           
 }
 
-.contenedorFormulario {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 5%;
-    padding-bottom: 5%; 
-    
-}
+.imgform {
+    display:flex;      
+    background-color: #9aafc7;  
+    align-content: flex-end;
+    border-radius: 10px;        
+    border: 1px solid rgb(28, 74, 107);    
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .7;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}    
+
+
 form {
-    background-color:rgb(194, 239, 239);
+    background-color: #afc3db;
     border-radius: 20px;
     padding: 15px;
     border: 1px solid rgb(28, 74, 107);
